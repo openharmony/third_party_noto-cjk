@@ -1,3 +1,4 @@
+# Noto CJK
 Noto CJK is available in multiple formats which have different uses. Each of
 these font formats used below has the capability to display both horizontal
 and vertical forms where appropriate. Any of the fonts that support
@@ -10,8 +11,7 @@ characters: U+00A0, U+00A5, U+2011, and U+20A9. These come in two weights
 the family name, e.g. 'Noto Sans Mono CJK {HK, JP, KR, SC, TC}'.
 
 
-Super OTC
-=========
+### Super OTC
 This packaging form carries the fonts for each of Simplified Chinese,
 Traditional Chinese, Traditional Chinese HK, Japanese, and Korean multiplied
 by all 7 weights for each in one single font file. In addition, each language
@@ -20,11 +20,10 @@ will appear in font menus as 45 separate fonts. This format is the easiest to
 install of all the formats and takes the least space due to sharing between the
 45 pieces.
 
-This format works on recent versions of Mac and Linux but
-unfortunately Windows does not support it.
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
-OTC
-===
+
+### OTC
 This packaging form carries the fonts for each of Simplified Chinese,
 Traditional Chinese, Traditional Chinese HK, Japanese, and Korean in a single font file. Once
 installed it will appear in font menus as four or eight separate fonts. This
@@ -35,11 +34,9 @@ from Thin to Black.
 Two of these files (Regular and Bold) also contain new 'Monospace' versions for
 each language. These files appear in font menus as eight separate fonts.
 
-This format works on recent versions of Mac and Linux but
-unfortunately Windows does not support it.
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1607 (aka *Anniversary Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
-Multilingual OTF
-================
+### Multilingual OTF
 This packaging form has 5 language specific variants that have all the same
 glyph coverage as the OTC format but provide language coverage through the
 use of the OpenType 'locl' feature. In each of these font files there is a
@@ -50,8 +47,7 @@ weights).
 Each language also provides Monospace variants in Regular and Bold. There are 10
 of these files (5 language default variants * 2 weights).
 
-Region-specific OTF
-===================
+### Region-specific OTF
 This packaging form provides monolingual subset versions of the fonts. There is
 a separate font file for each of Simplified Chinese, Traditional Chinese, Traditional Chinese HK,
 Japanese, and Korean. If you want to install one language only then this
