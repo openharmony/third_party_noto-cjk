@@ -1,37 +1,18 @@
-# third_party_noto-cjk
+# noto-cjk
+Noto CJK fonts
 
-#### 介绍
-提供简体中文、繁体中文、日文和韩文的字库合集
+Download individual fonts from the download guides for [Noto Sans CJK](https://github.com/googlefonts/noto-cjk/tree/main/Sans#downloading-noto-sans-cjk) or [Noto Serif CJK](https://github.com/googlefonts/noto-cjk/tree/main/Serif#downloading-noto-serif-cjk) or look in [Releases](https://github.com/googlefonts/noto-cjk/releases)
 
-#### 软件架构
-软件架构说明
+Version history is documented separately for [Sans](https://github.com/googlefonts/noto-cjk/blob/main/Sans/HISTORY.md#prior-release-notes) and [Serif](https://github.com/googlefonts/noto-cjk/blob/main/Serif/HISTORY.md#prior-release-notes)
 
+Noto CJK fonts are also available on [Google Fonts](https://fonts.google.com/noto/fonts) but under different names than in this repository:
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- *Noto Sans CJK JP* is listed there as *Noto Sans Japanese*
+- *Noto Sans CJK KR* as *Noto Sans Korean*
+- *Noto Sans CJK SC* as *Noto Sans Simplified Chinese*
+- *Noto Sans CJK TC* as *Noto Sans Traditional Chinese*
+- *Noto Sans CJK HK* as *Noto Sans Hong Kong*
+- *Noto Serif CJK JP* as *Noto Serif Japanese*
+- *Noto Serif CJK KR* as *Noto Serif Korean*
+- *Noto Serif CJK SC* as *Noto Serif Simplified Chinese*
+- *Noto Serif CJK TC* as *Noto Serif Traditional Chinese*

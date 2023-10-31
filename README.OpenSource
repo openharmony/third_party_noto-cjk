@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "noto-cjk",
+    "License": "SIL Open Font 1.1 License",
+    "License File": "LICENSE",
+    "Version Number": "Serif2.001",
+    "Owner": "jiali17@huawei.com",
+    "Upstream URL": "https://github.com/googlefonts/noto-cjk",
+    "Description": "Supports Chinese Simplified, Chinese Traditional, Japanese, and Korean font collections."
+  }
+]
