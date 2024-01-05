@@ -47,16 +47,15 @@
 
 <configuration>
     <oatconfig>
-        <licensefile>LICENSE</licensefile>
         <policylist>
-            <policy name="noto-cjk" desc="">
-                <policyitem type="compatibility" name="OFL-1.1-no-RFN" path="LICENSE" desc="SIL Open Font 1.1 License 兼容license"/>
+            <policy name="projectPolicy" desc="">
+                <policyitem type="license" name="OFL-1.1" path="LICENSE" desc="SIL Open Font 1.1 License"/>
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies">
-                <filteritem type="filename" name="*.otf|*.ttf|*.ttc" desc="官方自带字体文件，部分被直接使用，不对源字体文件做任何修改，无法律风险"/>
-                <filteritem type="filepath" name="Sans/NotoSansCJK.ttc.zip" desc="官方自带文件，不使用"/>
+                <filteritem type="filename" name="*.otf|*.ttf|*.ttc" desc="官方字体文件"/>
+                <filteritem type="filepath" name="Sans/NotoSansCJK.ttc.zip" desc="官方文件，不使用"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
