@@ -12,24 +12,37 @@
 #limitations under the License.
 
 import("//build/ohos.gni")
+import("fonts_config.gni")
 
-ohos_prebuilt_etc("NotoSansJP-VF") {
-  source = "Sans/Variable/TTF/Subset/NotoSansJP-VF.ttf"
-  module_install_dir = "fonts"
-  subsystem_name = "thirdparty"
-  part_name = "noto-cjk"
-}
+dep_list = []
 
-ohos_prebuilt_etc("NotoSansKR-VF") {
-  source = "Sans/Variable/TTF/Subset/NotoSansKR-VF.ttf"
-  module_install_dir = "fonts"
-  subsystem_name = "thirdparty"
-  part_name = "noto-cjk"
+foreach(font, fonts_list) {
+  font_name = font.font_name
+  ohos_prebuilt_etc(font_name) {
+    source = font.font_path
+    module_install_dir = "fonts"
+    subsystem_name = "thirdparty"
+    part_name = "noto-cjk"
+  }
+  dep_list += [ font_name ]
 }
 
 group("fonts_notocjk") {
-  deps = [
-    ":NotoSansJP-VF",
-    ":NotoSansKR-VF",
-  ]
+  deps = []
+  foreach(dep, dep_list) {
+    deps += [ ":${dep}" ]
+  }
+}
+
+ohos_copy("copy_preview_fonts_notocjk") {
+  sources = []
+  foreach(font, fonts_list) {
+    sources += [ font.font_path ]
+  }
+  outputs =
+      [ target_out_dir + "/previewer/common/bin/fonts/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/previewer/common/bin/"
+  module_install_name = ""
+  subsystem_name = "thirdparty"
+  part_name = "noto-cjk"
 }
