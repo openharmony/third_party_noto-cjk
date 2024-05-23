@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-fonts_list = [
+notocjk_fonts_list = [
   {
     font_name = "NotoSansCJK-Regular"
     font_path = "Sans/OTC/NotoSansCJK-Regular.ttc"
