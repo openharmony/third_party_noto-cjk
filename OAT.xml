@@ -47,15 +47,22 @@
 
 <configuration>
     <oatconfig>
+        <licensefile>Sans/LICENSE</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="license" name="OFL-1.1" path="LICENSE" desc="SIL Open Font 1.1 License"/>
+                <policyitem type="license" name="OFL-1.1-no-RFN" path="Sans/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
+                <policyitem type="license" name="OFL-1.1-no-RFN" path="Serif/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
             </policy>
         </policylist>
         <filefilterlist>
+            <filefilter name="defaultFilter" desc="Files not to check">
+                <filteritem type="filename" name="gh-release-noto-cjk-sans.sh" desc="三方开源，不使用，不需检测license、copyright"/>
+                <filteritem type="filename" name="gh-release-noto-cjk-serif.sh" desc="三方开源，不使用，不需检测license、copyright"/>
+                <filteritem type="filename" name="hotfix.py" desc="三方开源，不使用，不需检测license、copyright"/>
+            </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies">
-                <filteritem type="filename" name="*.otf|*.ttf|*.ttc" desc="官方字体文件"/>
-                <filteritem type="filepath" name="Sans/NotoSansCJK.ttc.zip" desc="官方文件，不使用"/>
+                <filteritem type="filename" name="*.otf|*.ttf|*.ttc" desc="三方开源字体文件"/>
+                <filteritem type="filepath" name="Sans/SuperOTC/NotoSansCJK.ttc.zip" desc="三方开源文件，不使用"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
