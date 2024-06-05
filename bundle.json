@@ -9,7 +9,7 @@
     },
     "dirs": {},
     "scripts": {},
-    "licensePath": "LICENSE",
+    "licensePath": "Sans/LICENSE",
     "component": {
         "name": "noto-cjk",
         "subsystem": "thirdparty",
