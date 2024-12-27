@@ -11,13 +11,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+declare_args() {
+  noto_cjk_font_feature_product = "default"
+}
+
 notocjk_fonts_list = [
   {
     font_name = "NotoSansCJK-Regular"
     font_path = "Sans/OTC/NotoSansCJK-Regular.ttc"
+    support_devices = [ "default" ]
+    alias_name = ""
   },
   {
     font_name = "NotoSerifCJK-Regular"
     font_path = "Serif/OTC/NotoSerifCJK-Regular.ttc"
+    support_devices = [ "default" ]
+    alias_name = ""
   },
 ]
