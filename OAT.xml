@@ -50,8 +50,8 @@
         <licensefile>Sans/LICENSE</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="license" name="OFL-1.1-no-RFN" path="Sans/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
-                <policyitem type="license" name="OFL-1.1-no-RFN" path="Serif/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
+                <policyitem type="compatibility" name="OFL-1.1-no-RFN" path="Sans/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
+                <policyitem type="compatibility" name="OFL-1.1-no-RFN" path="Serif/LICENSE" desc="SIL OPEN FONT LICENSE Version 1.1"/>
             </policy>
         </policylist>
         <filefilterlist>
