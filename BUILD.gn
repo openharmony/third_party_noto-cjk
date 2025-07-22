@@ -58,3 +58,16 @@ ohos_copy("copy_preview_fonts_notocjk") {
   subsystem_name = "thirdparty"
   part_name = "noto-cjk"
 }
+
+ohos_copy("copy_preview_fonts_notocjk_ext") {
+  sources = []
+  foreach(font, notocjk_fonts_list) {
+    sources += [ font.font_path ]
+  }
+  outputs =
+      [ target_out_dir + "/previewer/resources/fonts/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/previewer/resources"
+  module_install_name = ""
+  subsystem_name = "thirdparty"
+  part_name = "noto-cjk"
+}
