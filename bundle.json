@@ -28,7 +28,16 @@
             "sub_component": [
                 "//third_party/noto-cjk:fonts_notocjk"
             ],
-            "inner_kits": [],
+            "inner_kits": [
+                {
+                    "name":"//third_party/noto-cjk:fonts_notocjk",
+                    "header":{
+                        "header_files":[
+                        ],
+                        "header_base":"//third_party/noto-cjk"
+                    }
+                }
+            ],
             "test": []
         }
     }
